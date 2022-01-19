@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x2EdB7b862F39BAC3FF97efB1B101eca0668b5730",
+  "SCAN_LINK": "https://www.smartscan.cash/address/0x2EdB7b862F39BAC3FF97efB1B101eca0668b5730",
+  "NETWORK": {
+    "NAME": "SMARTBCH",
+    "SYMBOL": "BCH",
+    "ID": 10000
+  },
+  "NFT_NAME": "WenLambo Legendary NFTS",
+  "SYMBOL": "WLMB",
+  "MAX_SUPPLY": 2500,
+  "WEI_COST": 2,
+  "DISPLAY_COST": 0.01,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "OASIS",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "SHOW_BACKGROUND": true
+}
