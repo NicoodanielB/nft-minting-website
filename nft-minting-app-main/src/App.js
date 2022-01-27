@@ -113,7 +113,7 @@ function App() {
     SYMBOL: "",
     MAX_SUPPLY: 1,
     WEI_COST: 0,
-    DISPLAY_COST: 0,
+    DISPLAY_COST: 0.01,
     GAS_LIMIT: 0,
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
@@ -125,7 +125,7 @@ function App() {
     let gasLimit = CONFIG.GAS_LIMIT;
     let totalCostWei = String(cost * mintAmount);
     let totalGasLimit = String(gasLimit * mintAmount);
-    console.log("Cost: ", totalCostWei);
+    console.log("Cost: 0.01", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
@@ -249,13 +249,24 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("/config/rarity.html", "_blank");
+                window.open("/config/rarity.html", "_blank");
                 }}
                 style={{
                   margin: "5px",
                 }}
               >
                 Rarity
+              </StyledButton>
+
+              <StyledButton
+                onClick={(e) => {
+                window.open("https://wenlambo-phi.vercel.app/", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                Rarity rank
               </StyledButton>
               <StyledButton
                 style={{
